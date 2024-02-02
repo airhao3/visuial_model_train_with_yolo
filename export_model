@@ -1,0 +1,7 @@
+import shutil
+
+# Example: Copy files to Google Drive
+source_path = 'path/to/your/trained/model'
+destination_path = '/content/drive/MyDrive/Colab Notebooks/saved_models'
+
+shutil.copytree(source_path, destination_path)
